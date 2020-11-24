@@ -4,17 +4,16 @@ $(document).ready(function(){
         $("#header-nav").slideToggle();
     })
 
-    var wrap = $("#body-header");
-
-    wrap.on("scroll", function(e) {
     
-      if (this.scrollTop > 200) {
-        wrap.addClass("fix-search");
-      } else {
-        wrap.removeClass("fix-search");
-      }
+      $(window).scroll(function() {    
+          var scroll = $(window).scrollTop();
       
-    });
+          if (scroll >= 200) {
+              $(".header").addClass("header-fixed");
+          } else {
+              $(".header").removeClass("header-fixed");
+          }
+      });
 
 
     // const mq = window.matchMedia( "(min-width: 768px)" );
@@ -60,25 +59,4 @@ $(document).ready(function(){
     });
 
 
-
-    var $owl = $('.owl-carousel');
-
-$owl.children().each( function( index ) {
-  $(this).attr( 'data-position', index ); // NB: .attr() instead of .data()
-});
-
-$owl.owlCarousel({
-  center: true,
-  loop: true,
-  items: 3,
-  autoplay: true,
-  autoplayTimeout: 2000,
-  autoplayHoverPause: true
-});
-
-$(document).on('click', '.owl-item>div', function() {
-  // see https://owlcarousel2.github.io/OwlCarousel2/docs/api-events.html#to-owl-carousel
-  var $speed = 300;  // in ms
-  $owl.trigger('to.owl.carousel', [$(this).data( 'position' ), $speed] );
-});
 })
