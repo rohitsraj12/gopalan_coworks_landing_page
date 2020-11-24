@@ -4,6 +4,18 @@ $(document).ready(function(){
         $("#header-nav").slideToggle();
     })
 
+    var wrap = $("#body-header");
+
+    wrap.on("scroll", function(e) {
+    
+      if (this.scrollTop > 200) {
+        wrap.addClass("fix-search");
+      } else {
+        wrap.removeClass("fix-search");
+      }
+      
+    });
+
 
     // const mq = window.matchMedia( "(min-width: 768px)" );
 
