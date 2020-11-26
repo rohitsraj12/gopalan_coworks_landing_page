@@ -16,6 +16,18 @@ $(document).ready(function(){
       
     });
 
+    
+    // scroll down fixed body header 
+      $(window).scroll(function() {    
+          var scroll = $(window).scrollTop();
+      
+          if (scroll >= 200) {
+              $("#body__header").addClass("header-fixed");
+          } else {
+              $("#body__header").removeClass("header-fixed");
+          }
+      });
+
 
     // const mq = window.matchMedia( "(min-width: 768px)" );
 
