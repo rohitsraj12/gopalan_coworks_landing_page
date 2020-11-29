@@ -21,13 +21,13 @@ $(document).ready(function(){
       $(window).scroll(function() {    
           var scroll = $(window).scrollTop();
       
-          if (scroll >= 800) {
+          if (scroll >= 600) {
               $("#body-header").addClass("header-fixed");
           } else {
               $("#body-header").removeClass("header-fixed");
           }
 
-          if(scroll >= 800){
+          if(scroll >= 600){
             $("#fixed-button").removeClass("hide");
           } else {
             $("#fixed-button").addClass("hide");
