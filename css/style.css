@@ -206,12 +206,25 @@ a:hover {
   transition: 400ms;
 }
 
+.hover__state {
+  color: var(--color-theme);
+  color: #fff;
+  opacity: 0;
+  padding-left: -40px;
+  transition: 600ms;
+}
 
 .top__social-media li a:hover {
   border: 2px solid #ffffff;
   color: #fff;
 }
 
+.top__social-media li:hover span{
+  opacity: 1;
+  padding-left: 10px;
+  /* display: inline-block; */
+  /* color: red;  */
+} 
 
 
 /* ============================
