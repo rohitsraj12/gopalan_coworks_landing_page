@@ -165,11 +165,60 @@ a:hover {
   height: 100vh;
 }
 
-/* 
+/* ============================
+
+    body banner
+
+============================== */
+.body__banner {
+  position: relative;
+}
+
+.top__social-media {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.top__social-media ul {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.top__social-media li {
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+
+.top__social-media li a{
+  display: block;
+  display: inline-block;
+  border: 2px solid #313131;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #363636;
+  border-radius: 50%;
+  transition: 400ms;
+}
+
+
+.top__social-media li a:hover {
+  border: 2px solid #ffffff;
+  color: #fff;
+}
+
+
+
+/* ============================
 
     body container
 
-*/
+============================== */
 
 .body__container {
   height: 100%;
