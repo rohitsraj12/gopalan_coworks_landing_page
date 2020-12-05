@@ -1,10 +1,27 @@
 @media (max-width: 767px) {
-  .d-banner {
+  /* .d-banner {
+    display: none;
+  } */
+
+  .header__brand img {
+    height: 50px;
+  }
+  .section__location .section__header,  .section__testimonial .section__header .section__space .section__header, .section__amenities .section__header {
+    margin-bottom: 50px;
+  }
+  .section__header::after {
+    left: 44%;
+  }
+  .sm-hide {
     display: none;
   }
 
   .header__brand {
     padding: 20px 10px 10px;
+    /* text-align: center; */
+  }
+
+  .header__brand img{
     /* text-align: center; */
   }
 
@@ -66,8 +83,12 @@
 }
 
 @media (min-width: 768px) {
-  .m-banner {
+  /* .m-banner {
     display: none;
+  } */
+
+  .header__brand img {
+    height: 80px;
   }
 
   .hamberger {
