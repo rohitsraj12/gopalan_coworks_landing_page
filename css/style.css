@@ -75,7 +75,7 @@ a:hover {
 .section__header {
   text-align: center;
   font-family: "Rubik", sans-serif;
-  font-size: 36px;
+  font-size: 2.5rem;
   font-weight: 400;
   text-transform: uppercase;
   position: relative;
@@ -165,8 +165,24 @@ a:hover {
   color: rgb(190, 190, 190);
 }
 
-/* banner section */
+.nav-btn {
+  padding: 10px 20px ;
+  /* color: var(--color-theme); */
+  /* font-size: 20px; */
+  /* font-weight: 300; */
+  border: 1px solid #111111;
+  background-color:var(--color-theme);
+  /* color: rgb(49, 49, 49); */
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, .7);
 
+/* banner section */
+}
+
+
+.nav-btn:hover {
+  border: 1px solid var(--color-theme);
+
+}
 .body__banner img {
   width: 100%;
 }
@@ -354,8 +370,6 @@ a:hover {
   text-transform: capitalize;
   color: #d6d6d6;
   background-color: rgb(41, 41, 41);
-
-
 }
 
 .body__container {
@@ -379,7 +393,7 @@ a:hover {
 */
 
 .section__location {
-  padding: 100px 0;
+  padding: 100px 0 0;
   min-height: 50vh;
 }
 
@@ -637,7 +651,7 @@ a:hover {
 */
 
 .section__testimonial {
-  padding: 100px 0 100px;
+  padding: 100px 0 0px;
 }
 
 .section__testimonial .owl-nav {
@@ -765,6 +779,17 @@ a:hover {
   width: 150px;
   display: inline;
   border-radius: 50%;
+}
+
+.section__contact-us {
+  padding-bottom: 100px;
+}
+.contact__btn {
+  padding-top:  30px;
+}
+
+.contact__btn .primary-btn {
+  background-color: var(--color-theme);
 }
 
 .body__footer {
@@ -946,14 +971,22 @@ a:hover {
 }
 
 @media(min-width: 575px){
-  .m-banner {
+
+  .m-banner-image {
     display: none;
   }
-
 }
 
 @media(max-width: 574px){
-  .b-banner {
+  .wrap__container {
+    width: 96%;
+  }
+
+  /* .amenity__header p {
+    display: none;
+  } */
+
+  .d-banner-image {
     display: none;
   }
 
@@ -961,7 +994,9 @@ a:hover {
     display: none;
   }
 
-  
+  .fixed__button {
+    display: none;
+  }
 
   .section__testimonial .container {
       width: 96%;
