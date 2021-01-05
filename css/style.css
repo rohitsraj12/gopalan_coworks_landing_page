@@ -248,8 +248,6 @@ a:hover {
 .top__social-media li:hover span{
   opacity: 1;
   padding-left: 10px;
-  /* display: inline-block; */
-  /* color: red;  */
 } 
 
 
@@ -285,8 +283,6 @@ a:hover {
 
 .safety__image svg {
   margin-top: 20px;
-  /* fill: var(--color-theme); */
-  /* fill: var(--color-text-1) ; */
   fill: #000;
   width: 40px;
   height: 40px;
@@ -305,15 +301,6 @@ a:hover {
   border-bottom: 1px dotted #464646;
   margin-bottom: 15px;
 }
-
-
-/* .safety__body ul li:before {
-  content: "\f00c";
-  font-family: "FontAwesome";
-  font-weight: 400;
-  padding-right: 10px;
-  color: var(--color-text-1);
-} */
 
 .safety__body ul li:last-child {
   padding-bottom: 0;
@@ -415,8 +402,6 @@ a:hover {
 }
 
 .section__location .block__header {
-  /* -ms-transform: rotate(-90deg);*/
-  /* transform: rotate(-90deg);  */
   position: absolute;
   left: 20px;
   bottom: -20px;
@@ -435,8 +420,6 @@ a:hover {
   color: rgb(228, 228, 228);
   text-transform: uppercase;
   transition: 200ms;
-  /* letter-spacing: 3px; */
-  /* background-color: rgb(196, 16, 16); */
 }
 
 .section__location .block__header h4 {
@@ -450,7 +433,6 @@ a:hover {
 }
 
 .section__location .location__content:hover h4 {
-  /* display: block; */
   opacity: 1;
   font-size: 12px;
 }
@@ -466,7 +448,6 @@ a:hover {
 
 .section__location .location__content:hover {
   background-color: #00000034;
-  /* height: 36%; */
 }
 
 .location__btn {
@@ -482,8 +463,6 @@ a:hover {
 }
 
 .section__location .location__content:hover .block__header {
-  /* bottom: 20px; */
-  /* opacity: 0; */
   padding: 20px 20px;
   background-color: rgba(8, 8, 8, 0.836);
 }
