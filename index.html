@@ -1218,23 +1218,23 @@
                             <div class="section__body pt-5">
                                 <form action="form_1.php" method="POST">
                                     <div class="row">
-                                            <div class="col-sm-3">
+                                            <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                                                 <label class="text-light" for="name">Name</label>
                                                 <input type="text" name="name" class="form-control w-100" placeholder="Your name" id="name" aria-describedby="emailHelp">
                                             </div>
-                                            <div class="col-sm-3">
+                                            <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                                                 <label class="text-light" for="tel">Mobile no</label>
                                                 <input type="tel" name="phone"  class="form-control" id="tel" placeholder="Your mobile" aria-describedby="emailHelp">
                                                 
                                             </div>
-                                            <div class="col-sm-3">
+                                            <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                                                 <label class="text-light" for="email">Email address</label>
                                                 <input type="email" name="email"  class="form-control" id="email"  placeholder="Your email" aria-describedby="emailHelp">
                                     
                                             </div>
-                                            <div class="col-sm-3">
-                                                <label class="text-light" for="email">Your Location</label>
-                                                <select name="location" class="form-control" id="exampleFormControlSelect1">
+                                            <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                                                <label class="text-light" for="location">Your Location</label>
+                                                <select name="location" class="form-control" id="location">
                                                     <option>Select Your Locaton</option>
                                                     <option value="Banashankari" >Banashankari</option>
                                                     <option value="Bannerghatta road">Bannerghatta Road</option>
@@ -1244,10 +1244,20 @@
                                                     <option value="Old Madras Road">Central Bangalore</option>
                                                 </select>
                                             </div>
+                                            <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                                                <label class="text-light" for="seats">Number Of Seats</label>
+                                                <select name="seats" class="form-control" id="seats">
+                                                    <option>Select Number of Seats</option>
+                                                    <option value="1-5" >01 - 05 Seats</option>
+                                                    <option value="6-15">06 - 15 Seats</option>
+                                                    <option value="16-25">16 - 25 Seats</option>
+                                                    <option value="26-50">26 - 50 Seats</option>
+                                                    <option value="51+">51 + Seats</option>
+                                                </select>
+                                            </div>
 
-                                            <div class="col-sm-12 text-center mt-4 contact__btn">
+                                            <div class="col-sm-12 text-center mt-2 contact__btn">
                                                 <input type="submit" class="primary-btn" value="Special Quote">
-
                                             </div>
                                     </div>
                                 </form>
@@ -1340,7 +1350,7 @@
                 <div class="footer__fixed">
                     <div class="fixed__whatsApp" id="">
                         <div class="button">
-                            <a target="_blank" href="https://api.whatsapp.com/send?phone=+919353915170&text=Hi!%20I%20am%20Interested.%20Share%20details."> <i class="fa fa-whatsapp"></i></a>
+                            <a target="_blank" href="https://api.whatsapp.com/send?phone=+919353915170&text=Hi!%20I%20just%20saw%20your%20advertisement.%20I%20am%20Interested.%20Share%20details."> <i class="fa fa-whatsapp"></i></a>
                         </div>
                     </div>
                 
@@ -1350,7 +1360,7 @@
                                 <a href="tel:080 4931 4961">Call Us</a>
                             </li>
                             <li>
-                                <a href="" class=""  data-toggle="modal" data-target="#general">Get quote</a>
+                                <a href="" class="" data-toggle="modal" data-target="#general">Get quote</a>
                             </li>
                         </ul>
                     </div>
@@ -1605,9 +1615,20 @@
                                 <option value="Old Madras Road">Old Madras Road</option>
                                 </select>
                             </div>
+                            
+                            <div class="form-group">
+                                <label for="seats">Number Of Seats</label>
+                                <select name="seats" class="form-control" id="seats">
+                                    <option>Select Number of Seats</option>
+                                    <option value="1-5" >01 - 05 Seats</option>
+                                    <option value="6-15">06 - 15 Seats</option>
+                                    <option value="16-25">16 - 25 Seats</option>
+                                    <option value="26-50">26 - 50 Seats</option>
+                                    <option value="51+">51 + Seats</option>
+                                </select>
+                            </div>
                             <div class="text-center">
-                            <input type="submit" class="primary-btn">
-            
+                                <input type="submit" class="primary-btn">
                             </div>
                         </form>
                     </div>
