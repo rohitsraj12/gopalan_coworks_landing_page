@@ -10,7 +10,7 @@ if(isset($_POST['email'])){
 
     // $to = "degitalmarketing@gopalanenterprises.com";
     $to = "marketing@gopalancoworks.com";
-    $subject = "Enquiry form Gopalan Coworks";
+    $subject = "Search Ads - Coworks";
     $message = "<p>Enquiry</p></br>";
     $message .= "<p> name: <strong>". $user_name ."</strong></p></br>";
     $message .= "<p> phone number: <strong>". $user_phone ."</strong></p></br>";
